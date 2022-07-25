@@ -1,4 +1,0 @@
-#表示过滤这个文件夹
-node_modules/
-#过滤zip后缀文件
-*.zip
