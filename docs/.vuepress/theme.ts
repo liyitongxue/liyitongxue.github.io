@@ -138,9 +138,8 @@ export default hopeTheme({
 			 * Using Waline
 			 */
 			provider: "Waline",
-			serverURL: "https://comment.liiytongxue.com",
+			serverURL: "https://comment.liyitongxue.com",
 			requiredMeta: ['nick'],
-			wordLimit: 100,
 		},
 
 		mdEnhance: {

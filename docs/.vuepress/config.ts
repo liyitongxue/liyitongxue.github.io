@@ -5,7 +5,7 @@ import theme from "./theme";
 export default defineUserConfig({
 
 	plugins: [
-		
+
 		// dosearch配置
 		docsearchPlugin({
 			apiKey: '<API_KEY>',
@@ -30,7 +30,7 @@ export default defineUserConfig({
 			},
 		}),
 	],
-	
+
 
 	base: "/",
 
