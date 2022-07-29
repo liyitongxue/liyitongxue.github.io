@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: http://comment.liyitongxue.com/sitemap.xml
+Sitemap: https://blog.liyitongxue.com/sitemap.xml

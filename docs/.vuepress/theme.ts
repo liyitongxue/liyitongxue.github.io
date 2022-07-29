@@ -3,7 +3,7 @@ import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
 export default hopeTheme({
-	hostname: "http://blog.liyitongxue.com", // 绑定的域名
+	hostname: "https://blog.liyitongxue.com", // 绑定的域名
 
 	author: {
 		name: "LIYITONGXUE", // 作者名

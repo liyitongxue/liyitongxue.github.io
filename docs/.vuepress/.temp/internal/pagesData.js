@@ -41,16 +41,26 @@ export const pagesData = {
   "v-3e9371aa": () => import(/* webpackChunkName: "v-3e9371aa" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/guide/page.html.js").then(({ data }) => data),
   // path: /en/guide/
   "v-e6412400": () => import(/* webpackChunkName: "v-e6412400" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/guide/index.html.js").then(({ data }) => data),
+  // path: /en/note/
+  "v-3839b0e0": () => import(/* webpackChunkName: "v-3839b0e0" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/note/index.html.js").then(({ data }) => data),
   // path: /en/perception/1.html
   "v-1d2fcef6": () => import(/* webpackChunkName: "v-1d2fcef6" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/perception/1.html.js").then(({ data }) => data),
   // path: /note/client/1.html
   "v-1c197530": () => import(/* webpackChunkName: "v-1c197530" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/note/client/1.html.js").then(({ data }) => data),
+  // path: /note/client/
+  "v-7729a620": () => import(/* webpackChunkName: "v-7729a620" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/note/client/index.html.js").then(({ data }) => data),
   // path: /note/server/1.html
   "v-1308b2f0": () => import(/* webpackChunkName: "v-1308b2f0" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/note/server/1.html.js").then(({ data }) => data),
+  // path: /note/server/
+  "v-8bbc4cb0": () => import(/* webpackChunkName: "v-8bbc4cb0" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/note/server/index.html.js").then(({ data }) => data),
   // path: /en/note/client/1.html
   "v-5de57c7c": () => import(/* webpackChunkName: "v-5de57c7c" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/note/client/1.html.js").then(({ data }) => data),
+  // path: /en/note/client/
+  "v-7687bc34": () => import(/* webpackChunkName: "v-7687bc34" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/note/client/index.html.js").then(({ data }) => data),
   // path: /en/note/server/1.html
   "v-7efaea04": () => import(/* webpackChunkName: "v-7efaea04" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/note/server/1.html.js").then(({ data }) => data),
+  // path: /en/note/server/
+  "v-8d002088": () => import(/* webpackChunkName: "v-8d002088" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/note/server/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /category/

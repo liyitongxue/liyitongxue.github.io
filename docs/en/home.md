@@ -101,6 +101,6 @@ features:
     link: https://vuepress-theme-hope.github.io/v2/guide/feature/
 
 
-footer: <a href="http://www.liyi.io">LIYITONGXUE's HomePage/a> | Powered By <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank">vuepress-theme-hope</a>
+footer: <a href="http://www.liyitongxue.com">LIYITONGXUE's HomePage/a> 
 copyright: Copyright  2022 LIYITONGXUE
 ---
