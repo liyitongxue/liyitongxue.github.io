@@ -1,6 +1,6 @@
 @font-face {
   font-family: racingsansone-regular;
-  src: url("/fonts/racingsansone-regular.ttf");
+  src: url("http://cdn.liyitongxue.com/fonts/racingsansone-regular.ttf");
 }
 @font-face {
   font-family: mvboli;
@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: Segoe-Print;
-  src: url("/fonts/Segoe-Print.otf");
+  src: url("http://cdn.liyitongxue.com/fonts/Segoe-Print.otf");
 }
 
 .navbar .navbar-left .site-name{
@@ -20,6 +20,6 @@
 }
 
 .page .blog-hero .mask{
-	background: url("/mask1.png") center center / cover no-repeat !important;
+	background: url("http://cdn.liyitongxue.com/mask1.png") center center / cover no-repeat !important;
 	overflow:hidden;
 }

@@ -3,7 +3,7 @@ home: true
 icon: home
 article: false
 title: Project home
-heroImage: /logo.svg
+heroImage: http://cdn.liyitongxue.com/logo.svg
 heroText: Project name
 tagline: You can place the description of the project here.
 actions:

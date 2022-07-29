@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: home
 title: 主页
-heroImage: /logo-home.svg
+heroImage: https://cdn.liyitongxue.com/logo-home.svg
 heroText: " "
 tagline: Don't do to others what you want to be done to you
 article: false

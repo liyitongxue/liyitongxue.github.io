@@ -14,6 +14,7 @@ export const en = sidebar({
 					icon: "code",
 					prefix: "server/",
 					link: "server/",
+					collapsable: true,
 					children: "structure",
 				},
 				{
@@ -21,6 +22,7 @@ export const en = sidebar({
 					icon: "layout",
 					prefix: "client/",
 					link: "client/",
+					collapsable: true,
 					children: "structure",
 				},
 			],
@@ -30,6 +32,7 @@ export const en = sidebar({
 			icon: "write",
 			prefix: "perception/",
 			link: "perception/",
+			collapsable: true,
 			children: "structure",
 		},
 

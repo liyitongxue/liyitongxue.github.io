@@ -3,7 +3,7 @@ home: true
 icon: home
 article: false
 title: 项目主页
-heroImage: /logo.svg
+heroImage: http://cdn.liyitongxue.com/logo.svg
 heroText: 项目名称
 tagline: 你可以在这里放置或是整个项目的描述。
 actions:

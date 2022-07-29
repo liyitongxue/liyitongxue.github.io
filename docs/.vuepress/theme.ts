@@ -3,18 +3,18 @@ import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
 export default hopeTheme({
-	hostname: "http://www.liyi.io", // 绑定的域名
+	hostname: "http://blog.liyitongxue.com", // 绑定的域名
 
 	author: {
 		name: "LIYITONGXUE", // 作者名
-		url: "http://www.liyi.io", // 作者链接
+		url: "http://www.liyitongxue.com", // 作者链接
 	},
 
 	iconAssets: "iconfont", // 可使用 IconFont 精选图标:https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html
 
-	logo: "/logo.svg",
+	logo: "http://cdn.liyitongxue.com/logo.svg",
 
-	darkmode: "toggle", // 深色模式 toggle为 日间和夜间模式切换
+	darkmode: "toggle", // toggle为 日间和夜间模式切换
 
 	// repo: "vuepress-theme-hope/vuepress-theme-hope", //在导航栏显示一个github图标跳转到此仓库地址
 
