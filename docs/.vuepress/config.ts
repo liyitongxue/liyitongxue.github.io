@@ -7,28 +7,28 @@ export default defineUserConfig({
 	plugins: [
 
 		// dosearch配置
-		docsearchPlugin({
-			apiKey: '<API_KEY>',
-			indexName: '<INDEX_NAME>',
-			locales: {
-				'/': {
-					placeholder: '搜索',
-					translations: {
-						button: {
-							buttonText: '搜索',
-						},
-					},
-				},
-				'/en/': {
-					placeholder: 'Search',
-					translations: {
-						button: {
-							buttonText: 'Search',
-						},
-					},
-				},
-			},
-		}),
+		// docsearchPlugin({
+		// 	apiKey: '<API_KEY>',
+		// 	indexName: '<INDEX_NAME>',
+		// 	locales: {
+		// 		'/': {
+		// 			placeholder: '搜索',
+		// 			translations: {
+		// 				button: {
+		// 					buttonText: '搜索',
+		// 				},
+		// 			},
+		// 		},
+		// 		'/en/': {
+		// 			placeholder: 'Search',
+		// 			translations: {
+		// 				button: {
+		// 					buttonText: 'Search',
+		// 				},
+		// 			},
+		// 		},
+		// 	},
+		// }),
 	],
 
 

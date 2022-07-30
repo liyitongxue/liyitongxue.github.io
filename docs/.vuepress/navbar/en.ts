@@ -6,11 +6,12 @@ export const en = navbar([
 	{
 		text: "Learning Notes",
 		icon: "note",
-		prefix: "/en/note/",
-		children: [
-			{ text: "server", icon: "code", link: "server" },
-			{ text: "client", icon: "layout", link: "client" },
-		],
+		link:"/en/note/",
+		// prefix: "/en/note/",
+		// children: [
+		// 	{ text: "server", icon: "code", link: "server" },
+		// 	{ text: "client", icon: "layout", link: "client" },
+		// ],
 	},
 	// "/en/home", //项目主页
 	{ text: "Life Perception", icon: "write", link: "/en/perception/" },

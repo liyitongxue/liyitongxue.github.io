@@ -7,11 +7,11 @@ export const zh = navbar([
 		text: "学习笔记",
 		icon: "note",
 		link:"/note/",
-		prefix: "/note/",
-		children: [
-			{ text: "后端", icon: "code", link: "server/" },
-			{ text: "前端", icon: "layout", link: "client/" },
-		],
+		// prefix: "/note/",
+		// children: [
+		// 	{ text: "后端", icon: "code", link: "server/" },
+		// 	{ text: "前端", icon: "layout", link: "client/" },
+		// ],
 	},
 	// "/home", //项目主页
 	{ text: "日常感悟", icon: "write", link: "/perception/" },

@@ -28,10 +28,10 @@ export default hopeTheme({
 			Email: "mailto:liyi@liyitongxue.com",
 			GitHub: "https://github.com/liyitongxue",
 			Gitee: "https://gitee.com/illl1314",
-			// CSDN: [
-			// 	"https://blog.csdn.net/qq_42006801",
-			// 	"csdn.svg",
-			// ],
+			CSDN: [
+				"https://blog.csdn.net/qq_42006801",
+				"",
+			],
 			// Gitlab: "https://example.com",
 			// Baidu: "https://example.com",
 			// Bitbucket: "https://example.com",
