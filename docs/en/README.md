@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: home
 title: Home
-heroImage: http://cdn.liyitongxue.com/logo-home.svg
+heroImage: https://cdn.liyitongxue.com/logo-home.svg
 heroText: " "
 tagline: Don't do to others what you want to be done to you
 heroFullScreen: true
@@ -38,7 +38,7 @@ projects:
 #    desc: Detailed description of this custom item
 #    link: https://link.to.your.friend
 
-footer: <a href="http://www.liyi.io">LIYITONGXUE's HomePage</a> | Powered By <a href="https://vuepress-theme-hope.github.io/v2/">vuepress-theme-hope</a>
+footer: <a href="https://www.liyitongxue.com">LIYITONGXUE's HomePage</a>
 copyright: Copyright © 2022 LIYITONGXUE
 ---
 <!-- 

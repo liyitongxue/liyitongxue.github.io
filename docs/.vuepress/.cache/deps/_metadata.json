@@ -1,41 +1,41 @@
 {
-  "hash": "b39e7013",
-  "browserHash": "b714f187",
+  "hash": "1e1f6c19",
+  "browserHash": "15abb044",
   "optimized": {
     "@vue/devtools-api": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+@vue+devtools-api@6.2.1/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "fb8c1382",
+      "fileHash": "5d49f9ab",
       "needsInterop": false
     },
     "@vuepress/shared": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+@vuepress+shared@2.0.0-beta.49/node_modules/@vuepress/shared/dist/index.js",
+      "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "61fa9843",
+      "fileHash": "cfb32cdd",
       "needsInterop": false
     },
     "vue": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+vue@3.2.37/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "379a7087",
+      "fileHash": "9aa219c9",
       "needsInterop": false
     },
     "vue-router": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+vue-router@4.1.2_vue@3.2.37/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "dcdde6c8",
+      "fileHash": "6190e0fb",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-EPOXCFGH": {
-      "file": "chunk-EPOXCFGH.js"
+    "chunk-Z5G34GEI": {
+      "file": "chunk-Z5G34GEI.js"
     },
-    "chunk-RLBP2UYN": {
-      "file": "chunk-RLBP2UYN.js"
+    "chunk-S4HDREAB": {
+      "file": "chunk-S4HDREAB.js"
     },
-    "chunk-BHJJRKTV": {
-      "file": "chunk-BHJJRKTV.js"
+    "chunk-DBMRRQIZ": {
+      "file": "chunk-DBMRRQIZ.js"
     },
     "chunk-UM3OIVZS": {
       "file": "chunk-UM3OIVZS.js"

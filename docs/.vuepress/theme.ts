@@ -7,12 +7,12 @@ export default hopeTheme({
 
 	author: {
 		name: "LIYITONGXUE", // 作者名
-		url: "http://www.liyitongxue.com", // 作者链接
+		url: "https://www.liyitongxue.com", // 作者链接
 	},
 
 	iconAssets: "iconfont", // 可使用 IconFont 精选图标:https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html
 
-	logo: "http://cdn.liyitongxue.com/logo.svg",
+	logo: "https://cdn.liyitongxue.com/logo.svg",
 
 	darkmode: "toggle", // toggle为 日间和夜间模式切换
 
@@ -24,7 +24,7 @@ export default hopeTheme({
 
 	blog: {
 		medias: {
-			QQ: "http://wpa.qq.com/msgrd?v=3&uin=985434750&site=qq&menu=yes",
+			QQ: "https://wpa.qq.com/msgrd?v=3&uin=985434750&site=qq&menu=yes",
 			Email: "mailto:liyi@liyitongxue.com",
 			GitHub: "https://github.com/liyitongxue",
 			Gitee: "https://gitee.com/illl1314",

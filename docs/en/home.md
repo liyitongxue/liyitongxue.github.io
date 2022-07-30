@@ -3,7 +3,7 @@ home: true
 icon: home
 article: false
 title: Project home
-heroImage: http://cdn.liyitongxue.com/logo.svg
+heroImage: https://cdn.liyitongxue.com/logo.svg
 heroText: Project name
 tagline: You can place the description of the project here.
 actions:
@@ -101,6 +101,6 @@ features:
     link: https://vuepress-theme-hope.github.io/v2/guide/feature/
 
 
-footer: <a href="http://www.liyitongxue.com">LIYITONGXUE's HomePage/a> 
+footer: <a href="https://www.liyitongxue.com">LIYITONGXUE's HomePage/a> 
 copyright: Copyright  2022 LIYITONGXUE
 ---

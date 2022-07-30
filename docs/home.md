@@ -3,7 +3,7 @@ home: true
 icon: home
 article: false
 title: 项目主页
-heroImage: http://cdn.liyitongxue.com/logo.svg
+heroImage: https://cdn.liyitongxue.com/logo.svg
 heroText: 项目名称
 tagline: 你可以在这里放置或是整个项目的描述。
 actions:
@@ -101,6 +101,6 @@ features:
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 		
 		
-footer: <a href="http://www.liyitongxue.com">LIYITONGXUE的主页</a>
+footer: <a href="https://www.liyitongxue.com">LIYITONGXUE的主页</a>
 copyright: Copyright © 2022 LIYITONGXUE
 ---
