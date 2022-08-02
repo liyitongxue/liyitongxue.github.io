@@ -39,9 +39,8 @@ projects:
 #    desc: 自定义详细介绍
 #    link: https://你的自定义链接
 
-
-footer: <a href="https://www.liyitongxue.com">LIYITONGXUE的主页</a>
-copyright: Copyright © 2022 LIYITONGXUE
+footer: <a href="https://v2.vuepress.vuejs.org/" target="_blank"> <img src="https://img.shields.io/badge/Powered%20by-VuePress-brightgreen"> </a>  <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank"> <img src="https://img.shields.io/badge/Theme-VuePress--theme--hope-blue"> </a>
+copyright: Copyright © 2021-2022 LIYITONGXUE | <a href="https://www.liyitongxue.com" target="_blank">LIYITONGXUE的主页</a>
 ---
 
 <!-- 这是一个博客主页的案例。
@@ -49,4 +48,4 @@ copyright: Copyright © 2022 LIYITONGXUE
 要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
 
 相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。
- -->
+ --> 

@@ -7,8 +7,7 @@ index: false
 
 
 prev: true
-next: true
 ---
 
-# A little Perception
-There are some perception.
+# personal perceptions
+There are some personal perceptions.

@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-CAX2B3IN.js";
+} from "./chunk-UW7D4XC6.js";
 import {
   computed,
   defineComponent,
@@ -18,11 +18,11 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-5YX57F3Q.js";
-import "./chunk-WSKU7LAI.js";
+} from "./chunk-AVNYUN5D.js";
+import "./chunk-TDLBRWQU.js";
 import "./chunk-Y5HXPZI6.js";
 
-// node_modules/vue-router/dist/vue-router.mjs
+// node_modules/.pnpm/registry.npmmirror.com+vue-router@4.1.2_vue@3.2.37/node_modules/vue-router/dist/vue-router.mjs
 var isBrowser = typeof window !== "undefined";
 function isESModule(obj) {
   return obj.__esModule || obj[Symbol.toStringTag] === "Module";
@@ -647,7 +647,7 @@ function tokensToParser(segments, extraOptions) {
           const text = isArray(param) ? param.join("/") : param;
           if (!text) {
             if (optional) {
-              if (segment.length < 2) {
+              if (segment.length < 2 && segments.length > 1) {
                 if (path.endsWith("/"))
                   path = path.slice(0, -1);
                 else
@@ -660,7 +660,7 @@ function tokensToParser(segments, extraOptions) {
         }
       }
     }
-    return path || "/";
+    return path;
   }
   return {
     re,
@@ -1251,12 +1251,12 @@ function guardToPromiseFn(guard, to, from, record, name) {
   const enterCallbackArray = record && (record.enterCallbacks[name] = record.enterCallbacks[name] || []);
   return () => new Promise((resolve, reject) => {
     const next = (valid) => {
-      if (valid === false) {
+      if (valid === false)
         reject(createRouterError(4, {
           from,
           to
         }));
-      } else if (valid instanceof Error) {
+      else if (valid instanceof Error) {
         reject(valid);
       } else if (isRouteLocation(valid)) {
         reject(createRouterError(2, {
@@ -1264,9 +1264,8 @@ function guardToPromiseFn(guard, to, from, record, name) {
           to: valid
         }));
       } else {
-        if (enterCallbackArray && record.enterCallbacks[name] === enterCallbackArray && typeof valid === "function") {
+        if (enterCallbackArray && record.enterCallbacks[name] === enterCallbackArray && typeof valid === "function")
           enterCallbackArray.push(valid);
-        }
         resolve();
       }
     };
@@ -1543,13 +1542,13 @@ var RouterViewImpl = defineComponent({
     }, { flush: "post" });
     return () => {
       const route = routeToDisplay.value;
-      const currentName = props.name;
       const matchedRoute = matchedRouteRef.value;
-      const ViewComponent = matchedRoute && matchedRoute.components[currentName];
+      const ViewComponent = matchedRoute && matchedRoute.components[props.name];
+      const currentName = props.name;
       if (!ViewComponent) {
         return normalizeSlot(slots.default, { Component: ViewComponent, route });
       }
-      const routePropsOption = matchedRoute.props[currentName];
+      const routePropsOption = matchedRoute.props[props.name];
       const routeProps = routePropsOption ? routePropsOption === true ? route.params : typeof routePropsOption === "function" ? routePropsOption(route) : routePropsOption : null;
       const onVnodeUnmounted = (vnode) => {
         if (vnode.component.isUnmounted) {
@@ -2164,11 +2163,10 @@ ${JSON.stringify(newTargetLocation, null, 2)}
             return Promise.reject(new Error("Infinite redirect in navigation guard"));
           }
           return pushWithRedirect(
-            assign({
-              replace: replace2
-            }, locationAsObject(failure2.to), {
+            assign(locationAsObject(failure2.to), {
               state: data,
-              force
+              force,
+              replace: replace2
             }),
             redirectedFrom || toLocation
           );
@@ -2294,9 +2292,8 @@ ${JSON.stringify(newTargetLocation, null, 2)}
           }).catch(noop);
           return Promise.reject();
         }
-        if (info.delta) {
+        if (info.delta)
           routerHistory.go(-info.delta, false);
-        }
         return triggerError(error, toLocation, from);
       }).then((failure) => {
         failure = failure || finalizeNavigation(
@@ -2305,7 +2302,7 @@ ${JSON.stringify(newTargetLocation, null, 2)}
           false
         );
         if (failure) {
-          if (info.delta && !isNavigationFailure(failure, 8)) {
+          if (info.delta) {
             routerHistory.go(-info.delta, false);
           } else if (info.type === NavigationType.pop && isNavigationFailure(failure, 4 | 16)) {
             routerHistory.go(-1, false);
@@ -2477,7 +2474,7 @@ export {
   viewDepthKey
 };
 /*!
-  * vue-router v4.1.3
+  * vue-router v4.1.2
   * (c) 2022 Eduardo San Martin Morote
   * @license MIT
   */

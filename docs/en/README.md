@@ -7,6 +7,7 @@ heroImage: https://cdn.liyitongxue.com/logo-home.svg
 heroText: " "
 tagline: Don't do to others what you want to be done to you
 heroFullScreen: true
+article: false
 projects:
 #  - icon: project
 #    name: project name
@@ -38,8 +39,8 @@ projects:
 #    desc: Detailed description of this custom item
 #    link: https://link.to.your.friend
 
-footer: <a href="https://www.liyitongxue.com">LIYITONGXUE's HomePage</a>
-copyright: Copyright © 2022 LIYITONGXUE
+footer: <a href="https://v2.vuepress.vuejs.org/" target="_blank"> <img src="https://img.shields.io/badge/Powered%20by-VuePress-brightgreen"> </a>  <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank"> <img src="https://img.shields.io/badge/Theme-VuePress--theme--hope-blue"> </a>
+copyright: Copyright © 2021-2022 LIYITONGXUE | <a href="https://www.liyitongxue.com" target="_blank">LIYITONGXUE的主页</a>
 ---
 <!-- 
 This is a blog home page demo.

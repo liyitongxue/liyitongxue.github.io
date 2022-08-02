@@ -5,10 +5,9 @@ article: false
 
 index: false
 
-
-prev: true
+prev:
 next: true
 ---
 
-# 日常感悟
-这里写一些日常感悟
+# 学习笔记
+这里写一些学习笔记。

@@ -89,6 +89,10 @@ export const pagesComponents = {
   "v-37a8c5a0": defineAsyncComponent(() => import(/* webpackChunkName: "v-37a8c5a0" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/star/index.html.vue")),
   // path: /en/timeline/
   "v-0379cba1": defineAsyncComponent(() => import(/* webpackChunkName: "v-0379cba1" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/timeline/index.html.vue")),
+  // path: /category/server/
+  "v-15709398": defineAsyncComponent(() => import(/* webpackChunkName: "v-15709398" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/category/server/index.html.vue")),
+  // path: /tag/springboot/
+  "v-59fa8282": defineAsyncComponent(() => import(/* webpackChunkName: "v-59fa8282" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/tag/springboot/index.html.vue")),
   // path: /en/category/
   "v-5decfa84": defineAsyncComponent(() => import(/* webpackChunkName: "v-5decfa84" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/category/index.html.vue")),
   // path: /en/tag/
@@ -97,4 +101,8 @@ export const pagesComponents = {
   "v-09cc6ec0": defineAsyncComponent(() => import(/* webpackChunkName: "v-09cc6ec0" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/category/client/index.html.vue")),
   // path: /en/tag/vue.js/
   "v-2bb15cfc": defineAsyncComponent(() => import(/* webpackChunkName: "v-2bb15cfc" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/tag/vue.js/index.html.vue")),
+  // path: /en/category/server/
+  "v-4cc4a248": defineAsyncComponent(() => import(/* webpackChunkName: "v-4cc4a248" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/category/server/index.html.vue")),
+  // path: /en/tag/springboot/
+  "v-80347824": defineAsyncComponent(() => import(/* webpackChunkName: "v-80347824" */"E:/codes/blog/liyitongxue.github.io/docs/.vuepress/.temp/pages/en/tag/springboot/index.html.vue")),
 }

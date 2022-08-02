@@ -20,7 +20,15 @@ export default hopeTheme({
 
 	// docsDir: "demo/src", //文档在仓库中的目录
 
-	pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+	pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
+
+	// boolean，默认值: true。是否显示页面最后更新时间
+	lastUpdated: true,
+	// boolean，默认值: true。是否展示编辑此页链接
+	editLink: false,
+	// boolean，默认值: true。是否显示页面贡献者
+	contributors: false,
+
 
 	blog: {
 		medias: {
@@ -30,7 +38,7 @@ export default hopeTheme({
 			Gitee: "https://gitee.com/illl1314",
 			CSDN: [
 				"https://blog.csdn.net/qq_42006801",
-				"",
+				"https://cdn.liyitongxue.com/logo.svg",
 			],
 			// Gitlab: "https://example.com",
 			// Baidu: "https://example.com",
@@ -110,7 +118,6 @@ export default hopeTheme({
 	plugins: {
 		// 禁用 当用户通过滚动查看页面的不同部分时，嵌套的标题链接和 URL 中的 Hash 值会实时更新。
 		activeHeaderLinks: false,
-
 		blog: {
 			autoExcerpt: true, // 自动摘要
 		},
