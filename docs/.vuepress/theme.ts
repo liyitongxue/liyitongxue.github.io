@@ -12,6 +12,7 @@ export default hopeTheme({
 
 	iconAssets: "iconfont", // 可使用 IconFont 精选图标:https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html
 
+	// 导航栏图标
 	logo: "https://cdn.liyitongxue.com/logo.svg",
 
 	darkmode: "toggle", // toggle为 日间和夜间模式切换
@@ -38,7 +39,7 @@ export default hopeTheme({
 			Gitee: "https://gitee.com/illl1314",
 			CSDN: [
 				"https://blog.csdn.net/qq_42006801",
-				"https://cdn.liyitongxue.com/logo.svg",
+				"public/csdn.svg",
 			],
 			// Gitlab: "https://example.com",
 			// Baidu: "https://example.com",
@@ -114,10 +115,12 @@ export default hopeTheme({
 			"/guide/encrypt.html": ["1234"],
 		},
 	},
+	
+	
 
 	plugins: {
-		// 禁用 当用户通过滚动查看页面的不同部分时，嵌套的标题链接和 URL 中的 Hash 值会实时更新。
-		activeHeaderLinks: false,
+		// 当用户通过滚动查看页面的不同部分时，嵌套的标题链接和 URL 中的 Hash 值会实时更新。
+		activeHeaderLinks: true,
 		blog: {
 			autoExcerpt: true, // 自动摘要
 		},
@@ -155,5 +158,10 @@ export default hopeTheme({
 				plugins: ["highlight", "math", "search", "notes", "zoom"],
 			},
 		},
+		
+		// pwa:{
+		// 	favicon: "/logo.svg",
+		// },
+		
 	},
 });
