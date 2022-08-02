@@ -3,6 +3,8 @@ home: true
 layout: Blog
 icon: home
 title: Home
+# hero背景图片
+bgImage: https://cdn.liyitongxue.com/mask1.png
 heroImage: https://cdn.liyitongxue.com/logo-home.svg
 heroText: " "
 tagline: Don't do to others what you want to be done to you

@@ -15,7 +15,9 @@
 	font-family: 'Segoe-Print';
 }
 
-.page .blog-hero .mask{
-	background: url("https://cdn.liyitongxue.com/mask1.png") center center / cover no-repeat !important;
-	overflow:hidden;
-}
+// https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home.html#bgimage
+// 背景hero图片，等价于在README.md-Frontmatter中配置bgImage:https://cdn.liyitongxue.com/mask1.png
+// .page .blog-hero .mask{
+// 	background: url("https://cdn.liyitongxue.com/mask1.png") center center / cover no-repeat !important;
+// 	overflow:hidden;
+// }
