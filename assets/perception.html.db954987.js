@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as o,a as c}from"./app.836c4fc2.js";const r={},_=c("p",null,"\u6B64\u5904\u5B58\u653E\u4E00\u4E9B\u4E2A\u4EBA\u65E5\u5E38\u7684\u6240\u601D\u6240\u60F3",-1),n=[_];function s(a,l){return t(),o("div",null,n)}var f=e(r,[["render",s],["__file","perception.html.vue"]]);export{f as default};
