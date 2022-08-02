@@ -32,7 +32,7 @@ export default defineUserConfig({
 	],
 	
 	// 自定义的 favicon:https://v2.vuepress.vuejs.org/zh/reference/config.html#head
-	head: [['link', { rel: 'icon', href: '/logo.png' }]],
+	head: [['link', { rel: 'icon', href: 'https://cdn.liyitongxue.com/logo.svg' }]],
 
 	base: "/",
 
