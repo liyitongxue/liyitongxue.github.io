@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-title: Home
+title: Blog Home
 # hero背景图片
 bgImage: https://cdn.liyitongxue.com/mask1.png
 heroImage: https://cdn.liyitongxue.com/logo-home.svg
@@ -42,7 +42,7 @@ projects:
 #    link: https://link.to.your.friend
 
 footer: <a href="https://v2.vuepress.vuejs.org/" target="_blank"> <img src="https://img.shields.io/badge/Powered%20by-VuePress-brightgreen"> </a>  <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank"> <img src="https://img.shields.io/badge/Theme-VuePress--theme--hope-blue"> </a>
-copyright: Copyright © 2021-2022 LIYITONGXUE | <a href="https://www.liyitongxue.com" target="_blank">LIYITONGXUE的主页</a>
+copyright: Copyright © 2021-2022 LIYITONGXUE | <a href="https://www.liyitongxue.com" target="_blank">LIYITONGXUE's HomePage</a>
 ---
 <!-- 
 This is a blog home page demo.

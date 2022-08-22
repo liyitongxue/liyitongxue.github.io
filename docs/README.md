@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-title: 主页
+title: 博客主页
 # hero背景图片
 bgImage: https://cdn.liyitongxue.com/mask1.png
 heroImage: https://cdn.liyitongxue.com/logo-home.svg

@@ -102,5 +102,5 @@ features:
 
 
 footer: <a href="https://www.liyitongxue.com">LIYITONGXUE's HomePage/a> 
-copyright: Copyright  2022 LIYITONGXUE
+copyright: Copyright © 2022 LIYITONGXUE
 ---
