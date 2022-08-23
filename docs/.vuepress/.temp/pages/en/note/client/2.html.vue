@@ -1,1 +1,28 @@
-<template><div></div></template>
+<template><div><p>HTML prohibits dragging, selecting, and right-clicking elements, making it impossible for users to drag and right-click images while browsing Web pages to optimize the experience.
+It can also be used on text labels, so that when the user moves the mouse to text, the mouse does not change to the selected state (that is, the mouse style changes to: I).</p>
+<!-- more -->
+<h2 id="_1-don-t-drag-or-right-mouse-button" tabindex="-1"><a class="header-anchor" href="#_1-don-t-drag-or-right-mouse-button" aria-hidden="true">#</a> 1 Don't Drag Or Right Mouse Button</h2>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span>
+	<span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>src<span class="token punctuation">"</span></span>
+	<span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>unselectable<span class="token punctuation">"</span></span>
+	<span class="token attr-name">draggable</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span>
+	<span class="token attr-name">oncontextmenu</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>return false;<span class="token punctuation">"</span></span>
+ <span class="token punctuation">/></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="custom-container tip"><p class="custom-container-title">Tips</p>
+<p><code v-pre>class=&quot;unselectable&quot;</code>added a class name in the img element,<code v-pre>draggable=&quot;false&quot;</code>is to precent drag,<code v-pre>oncontextmenu=&quot;return false;&quot;</code>is to prevent right mouse button.</p>
+</div>
+<h2 id="_2-adding-css-properties-disable-this-option" tabindex="-1"><a class="header-anchor" href="#_2-adding-css-properties-disable-this-option" aria-hidden="true">#</a> 2 Adding CSS Properties Disable This Option</h2>
+<div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">&lt;style>
+	.unselectable</span> <span class="token punctuation">{</span>
+	  <span class="token property">-moz-user-select</span><span class="token punctuation">:</span> -moz-none<span class="token punctuation">;</span>
+	  <span class="token property">-khtml-user-select</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+	  <span class="token property">-webkit-user-select</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+	  <span class="token property">-o-user-select</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+	  <span class="token property">user-select</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+&lt;style>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Reference:<a href="https://blog.csdn.net/weixin_45066149/article/details/119520229" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/weixin_45066149/article/details/119520229<ExternalLinkIcon/></a></p>
+<p>In addition:If Vue.js,then can add <code v-pre>@dragstart.prevent</code>、<code v-pre>@selectstart.prevent</code>to prevent drag and select in the element tags.</p>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">@dragstart.prevent</span> <span class="token punctuation">/></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">@selectstart.prevent</span><span class="token punctuation">></span></span>Copyright © 2021-2022 LIYITONGXUE<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></div></template>

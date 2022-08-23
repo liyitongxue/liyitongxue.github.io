@@ -1,1 +1,1 @@
-export const sidebarData = {"/en/note/server/":["1.md"],"/en/note/client/":["1.md","2.md","3.md"],"/en/perception/":["1.md"],"/note/server/":["1.md"],"/note/client/":["3.md","2.md","1.md"],"/perception/":["1.md"]}
+export const sidebarData = {"/en/note/server/":["1.md"],"/en/note/client/":["1.md","2.md","3.md","4.md","5.md"],"/en/perception/":["1.md"],"/note/server/":["1.md"],"/note/client/":["5.md","3.md","2.md","4.md","1.md"],"/perception/":["1.md"]}

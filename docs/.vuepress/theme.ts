@@ -39,7 +39,7 @@ export default hopeTheme({
 			Gitee: "https://gitee.com/illl1314",
 			CSDN: [
 				"https://blog.csdn.net/qq_42006801",
-				"public/csdn.svg",
+				"http://files.liyitongxue.com/csdn.svg",
 			],
 			// Gitlab: "https://example.com",
 			// Baidu: "https://example.com",
