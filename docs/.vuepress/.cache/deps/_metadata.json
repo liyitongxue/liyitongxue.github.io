@@ -1,41 +1,41 @@
 {
-  "hash": "e4fba530",
-  "browserHash": "af128bc8",
+  "hash": "f8f9093e",
+  "browserHash": "e7c22471",
   "optimized": {
     "@vue/devtools-api": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+@vue+devtools-api@6.2.1/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "b39cc187",
+      "fileHash": "d7dec0af",
       "needsInterop": false
     },
     "@vuepress/shared": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+@vuepress+shared@2.0.0-beta.49/node_modules/@vuepress/shared/dist/index.js",
+      "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "5fd36ec7",
+      "fileHash": "11d2c502",
       "needsInterop": false
     },
     "vue": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+vue@3.2.37/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "7c500d43",
+      "fileHash": "23e4ba33",
       "needsInterop": false
     },
     "vue-router": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+vue-router@4.1.2_vue@3.2.37/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "e6d8480d",
+      "fileHash": "1f9e1c31",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-UW7D4XC6": {
-      "file": "chunk-UW7D4XC6.js"
+    "chunk-CAX2B3IN": {
+      "file": "chunk-CAX2B3IN.js"
     },
-    "chunk-AVNYUN5D": {
-      "file": "chunk-AVNYUN5D.js"
+    "chunk-5YX57F3Q": {
+      "file": "chunk-5YX57F3Q.js"
     },
-    "chunk-TDLBRWQU": {
-      "file": "chunk-TDLBRWQU.js"
+    "chunk-WSKU7LAI": {
+      "file": "chunk-WSKU7LAI.js"
     },
     "chunk-Y5HXPZI6": {
       "file": "chunk-Y5HXPZI6.js"

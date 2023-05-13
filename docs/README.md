@@ -5,7 +5,7 @@ icon: home
 title: 博客主页
 # hero背景图片
 bgImage: https://cdn.liyitongxue.com/mask1.png
-heroImage: https://cdn.liyitongxue.com/logo-home.svg
+heroImage: https://cdn.liyitongxue.com/logo-home_1.svg
 heroText: " "
 tagline: Don't do to others what you want to be done to you
 article: false
@@ -42,7 +42,7 @@ projects:
 #    link: https://你的自定义链接
 
 footer: <a href="https://v2.vuepress.vuejs.org/" target="_blank"> <img src="https://img.shields.io/badge/Powered%20by-VuePress-brightgreen"> </a>  <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank"> <img src="https://img.shields.io/badge/Theme-VuePress--theme--hope-blue"> </a>
-copyright: Copyright © 2021-2022 LIYITONGXUE | <a href="https://www.liyitongxue.com" target="_blank">LIYITONGXUE的主页</a>
+copyright: Copyright © 2021-2023 LIYITONGXUE | <a href="https://www.liyitongxue.com" target="_blank">LIYITONGXUE的主页</a>
 ---
 
 <!-- 这是一个博客主页的案例。

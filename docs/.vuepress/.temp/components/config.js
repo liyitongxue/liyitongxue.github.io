@@ -1,9 +1,9 @@
-import { useStyleTag } from "E:/codes/blog/liyitongxue.github.io/node_modules/.pnpm/registry.npmmirror.com+vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/composables";
+import { useStyleTag } from "E:/codes/blog/liyitongxue.github.io/node_modules/vuepress-plugin-components/lib/client/composables";
 import { h } from "vue";
 import { defineClientConfig } from "@vuepress/client";
-import Badge from "E:/codes/blog/liyitongxue.github.io/node_modules/.pnpm/registry.npmmirror.com+vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/components/Badge";
-import FontIcon from "E:/codes/blog/liyitongxue.github.io/node_modules/.pnpm/registry.npmmirror.com+vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
-import BackToTop from "E:/codes/blog/liyitongxue.github.io/node_modules/.pnpm/registry.npmmirror.com+vuepress-plugin-components@2.0.0-beta.87/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
+import Badge from "E:/codes/blog/liyitongxue.github.io/node_modules/vuepress-plugin-components/lib/client/components/Badge";
+import FontIcon from "E:/codes/blog/liyitongxue.github.io/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
+import BackToTop from "E:/codes/blog/liyitongxue.github.io/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
 
 
 export default defineClientConfig({
